@@ -1,0 +1,54 @@
+.container {
+    border: 2px solid skyblue;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.container img {
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+
+.container text {
+    font-size: 50px;
+    margin: 15px;
+}
+
+
+.btn-outline-primary{
+    margin-top: 10px;
+}
+
+
+.eliminar{
+    float: right;
+}
+
+.perfil{
+    width:90px
+}
+
+
+.azul{
+    color: blue;
+}
+
+
+.fa-thumbs-up {
+    color:grey;
+}
+
+
+#textotw{
+    margin:  10px;
+}
+
+
+#id{
+    
+}
