@@ -25,14 +25,14 @@ $('#timeline').on('click','.eliminar', function(){
 
 
 
-$('.like').on('click','.ico', function(){
+$('#timeline').on('click','.ico', function(){
 $(this).css('color','blue');
-var contador= $('.ico').text();
+var contador= $(this).text();
 contador= parseInt(contador);
 contador= contador+1;
 console.log(contador);
 
-$(this).html ('<i>'+contador+'</i>')
+$(this).html ('<i>'+contador+'</i>');
 
 
 
